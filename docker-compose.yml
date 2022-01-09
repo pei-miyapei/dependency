@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  php:
+    build:
+      context: ./docker/php
+      args:
+        - INSTALL_XDEBUG=${INSTALL_XDEBUG}
+        - HOST_IP=${HOST_IP}
+    volumes:
+      - .:/var/www
+      - .:/workspace:cached
+    environment:
+      - PHP_CS_FIXER_IGNORE_ENV=1
