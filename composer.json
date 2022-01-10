@@ -8,5 +8,8 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "friendsofphp/php-cs-fixer": "dev-master",
+        "phpunit/phpunit": "10.0.x-dev"
+    }
 }
