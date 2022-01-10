@@ -1,10 +1,10 @@
 {
-    "name": "miyapei/dependency",
+    "name": "dependency/dependency",
     "description": "DI補助",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Miyapei\\Dependency\\": "src/"
+            "Dependency\\": "src/"
         }
     },
     "minimum-stability": "dev",
